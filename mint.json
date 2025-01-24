@@ -20,24 +20,38 @@
     }
   },
   "theme": "quill",
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+  "background": {
+    "style": "gradient"
+  },
+  "font": {
+    "headings": {
+      "family": "IBM Plex Mono"
+    },
+    "body": {
+      "family": "IBM Plex Mono"
     }
-  ],
+  },
+  "sidebar": {
+    "items": "card"
+  },
+  "topbar": {
+    "style": "default"
+  },
+  "search": {
+    "location": "top",
+    "prompt": "Search docs"
+  },
+  "codeBlock": {
+    "mode": "auto"
+  },
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Go to sage.new",
+    "url": "https://sage.new"
   },
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["introduction", "quickstart", "development"]
     },
     {
       "group": "Essentials",
@@ -52,9 +66,7 @@
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "Endpoint Examples",
@@ -66,8 +78,14 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/sageforall"
+  },
+  "feedback": {
+    "raiseIssue": true,
+    "suggestEdit": true,
+    "thumbsRating": true
+  },
+  "seo": {
+    "indexHiddenPages": true
   }
 }
