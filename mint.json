@@ -42,7 +42,7 @@
     "prompt": "Search docs"
   },
   "codeBlock": {
-    "mode": "auto"
+    "mode": "dark"
   },
   "topbarCtaButton": {
     "name": "Go to sage.new",
