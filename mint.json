@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "SAGE Docs",
   "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "dark": "/images/logo-dark.png",
+    "light": "/images/logo-light.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -50,31 +50,28 @@
   },
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Getting Started",
+      "pages": ["introduction"]
     },
     {
-      "group": "Essentials",
+      "group": "SAGE",
+      "pages": ["sage/overview", "sage/architecture", "sage/agents"]
+    },
+    {
+      "group": "SAGE Token",
+      "pages": ["token/overview", "token/economics", "token/utility"]
+    },
+    {
+      "group": "SAGEUSD",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "sageusd/overview",
+        "sageusd/features",
+        "sageusd/points-program"
       ]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Initial Stablecoin Offering",
+      "pages": ["iso/overview", "iso/mechanism", "iso/benefits"]
     }
   ],
   "footerSocials": {
