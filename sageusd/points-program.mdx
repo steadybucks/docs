@@ -24,7 +24,7 @@ The SAGEUSD Points Program rewards early adopters of the SAGE world computer by 
     1M points for holders, 4M for LP providers daily
   </Card>
   <Card title="Cumulative Multipliers" icon="chart-line" color="#3b82f6">
-    Market cap and time multipliers stack (e.g., 3x × 3x = 9x)
+    Market cap and time multipliers stack (e.g., 3x × 2x = 6x)
   </Card>
 </CardGroup>
 
@@ -71,8 +71,9 @@ The Holding Points Program rewards users who hold SAGEUSD in their wallets, prov
       </div>
       <div className="border-t border-gray-300 dark:border-gray-600 pt-4">
         <div className="flex justify-between font-bold">
-          <span>Example:</span>
-          <span className="font-mono">If you hold 0.1% of all SAGEUSD, you receive 1,000 points per day (0.1% of 1,000,000)</span>
+          <span>Example:&nbsp;</span>
+          <span className="font-mono">If you hold 0.1% of all SAGEUSD, you receive 1,000 points per day (0.1% of 1,000,000) 
+          before multipliers and referral bonuses</span>
         </div>
       </div>
     </div>
@@ -85,8 +86,8 @@ The Holding Points Program rewards users who hold SAGEUSD in their wallets, prov
   <Card title="Low Barrier to Entry" icon="door-open" color="#0891b2">
     Only 1,000 SAGEUSD required to start earning
   </Card>
-  <Card title="Early Adopter Multipliers" icon="chart-line" color="#3b82f6">
-    Earn up to 9x points with combined multipliers
+  <Card title="Market Cap Multipliers" icon="chart-line" color="#3b82f6">
+    Earn bonus points with combined multipliers
   </Card>
   <Card title="Referral Benefits" icon="users" color="#7c3aed">
     Earn additional points through the referral program
@@ -104,7 +105,7 @@ The Holding Points Program rewards users who hold SAGEUSD in their wallets, prov
   </Accordion>
   <Accordion icon="chart-line" title="Multiplier Stacking">
     Holding points receive early adopter multipliers:
-    - Market cap based: 3x (0-100M) to 1x (10B+)
+    - Market cap based: 1x (0-100M) to 3x (10B+)
     - Time based: 3x (first 30 days) to 1x (180+ days)
   </Accordion>
   <Accordion icon="users" title="Referral Integration">
@@ -159,8 +160,9 @@ The Points Program rewards users who provide liquidity to this
       </div>
       <div className="border-t border-gray-300 dark:border-gray-600 pt-4">
         <div className="flex justify-between font-bold">
-          <span>Example:</span>
-          <span className="font-mono">If you hold 1% of all LP tokens, you receive 40,000 points per day (1% of 4,000,000)</span>
+          <span>Example:&nbsp;</span>
+          <span className="font-mono">If you hold 1% of all LP tokens, you receive 
+          40,000 points per day (1% of 4,000,000) before multipliers and referral bonuses</span>
         </div>
       </div>
     </div>
@@ -192,7 +194,7 @@ The Points Program rewards users who provide liquidity to this
   </Accordion>
   <Accordion icon="chart-line" title="Multiplier Stacking">
     LP points receive the same early adopter multipliers:
-    - Market cap based: 3x (0-100M) to 1x (10B+)
+    - Market cap based: 1x (0-100M) to 3x (10B+)
     - Time based: 3x (first 30 days) to 1x (180+ days)
   </Accordion>
   <Accordion icon="users" title="Referral Integration">
@@ -219,9 +221,9 @@ Points are distributed daily to all eligible SAGEUSD holders and LP providers:
   </Step>
 </Steps>
 
-## Early Adopter Multipliers
+## Market Cap Multipliers
 
-To reward early supporters, the SAGEUSD Points Program includes multipliers based on both market cap milestones and time. These multipliers are cumulative, meaning they multiply together for maximum benefit:
+To reward ecosystem growth, the SAGEUSD Points Program includes multipliers based on both market cap milestones and time. These multipliers are cumulative, meaning they multiply together for maximum benefit:
 
 <Tabs>
   <Tab title="Market Cap Multipliers">
@@ -236,27 +238,27 @@ To reward early supporters, the SAGEUSD Points Program includes multipliers base
         <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
           <tr>
             <td className="px-6 py-4 whitespace-nowrap">0 - 100M</td>
-            <td className="px-6 py-4 whitespace-nowrap">3x</td>
+            <td className="px-6 py-4 whitespace-nowrap">1.0x</td>
           </tr>
           <tr>
             <td className="px-6 py-4 whitespace-nowrap">100M - 500M</td>
-            <td className="px-6 py-4 whitespace-nowrap">2.5x</td>
-          </tr>
-          <tr>
-            <td className="px-6 py-4 whitespace-nowrap">500M - 1B</td>
-            <td className="px-6 py-4 whitespace-nowrap">2x</td>
-          </tr>
-          <tr>
-            <td className="px-6 py-4 whitespace-nowrap">1B - 5B</td>
-            <td className="px-6 py-4 whitespace-nowrap">1.5x</td>
-          </tr>
-          <tr>
-            <td className="px-6 py-4 whitespace-nowrap">5B - 10B</td>
             <td className="px-6 py-4 whitespace-nowrap">1.25x</td>
           </tr>
           <tr>
+            <td className="px-6 py-4 whitespace-nowrap">500M - 1B</td>
+            <td className="px-6 py-4 whitespace-nowrap">1.5x</td>
+          </tr>
+          <tr>
+            <td className="px-6 py-4 whitespace-nowrap">1B - 5B</td>
+            <td className="px-6 py-4 whitespace-nowrap">2.0x</td>
+          </tr>
+          <tr>
+            <td className="px-6 py-4 whitespace-nowrap">5B - 10B</td>
+            <td className="px-6 py-4 whitespace-nowrap">2.5x</td>
+          </tr>
+          <tr>
             <td className="px-6 py-4 whitespace-nowrap">10B+</td>
-            <td className="px-6 py-4 whitespace-nowrap">1x</td>
+            <td className="px-6 py-4 whitespace-nowrap">3.0x</td>
           </tr>
         </tbody>
       </table>
@@ -314,24 +316,24 @@ To reward early supporters, the SAGEUSD Points Program includes multipliers base
           </thead>
           <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
             <tr>
-              <td className="px-6 py-4 whitespace-nowrap">First 30 days, Market Cap 0-100M</td>
-              <td className="px-6 py-4 whitespace-nowrap">3x (time) × 3x (market cap)</td>
-              <td className="px-6 py-4 whitespace-nowrap">9x</td>
+              <td className="px-6 py-4 whitespace-nowrap">Day 20, Market Cap 200M</td>
+              <td className="px-6 py-4 whitespace-nowrap">3x (time) × 1.25x (market cap)</td>
+              <td className="px-6 py-4 whitespace-nowrap">3.75x</td>
             </tr>
             <tr>
-              <td className="px-6 py-4 whitespace-nowrap">Days 30-60, Market Cap 100M-500M</td>
-              <td className="px-6 py-4 whitespace-nowrap">2.5x (time) × 2.5x (market cap)</td>
-              <td className="px-6 py-4 whitespace-nowrap">6.25x</td>
+              <td className="px-6 py-4 whitespace-nowrap">Day 40, Market Cap 500M</td>
+              <td className="px-6 py-4 whitespace-nowrap">2.5x (time) × 1.5x (market cap)</td>
+              <td className="px-6 py-4 whitespace-nowrap">3.75x</td>
             </tr>
             <tr>
-              <td className="px-6 py-4 whitespace-nowrap">Days 60-90, Market Cap 500M-1B</td>
+              <td className="px-6 py-4 whitespace-nowrap">Day 70, Market Cap 1B</td>
               <td className="px-6 py-4 whitespace-nowrap">2x (time) × 2x (market cap)</td>
               <td className="px-6 py-4 whitespace-nowrap">4x</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <p>This means early adopters can earn up to 9x the base points during the initial phase of the program!</p>
+      <p>This means early adopters can earn significant multipliers on their points during the initial phases of the program as the market cap grows!</p>
     </div>
   </Tab>
 </Tabs>
@@ -391,7 +393,7 @@ To prevent users from gaming the system by acquiring SAGEUSD just before points 
       </div>
       <div className="flex justify-between">
         <span>Your Share of LP Pool:</span>
-        <span className="font-mono">0.05% of total LP tokens</span>
+        <span className="font-mono">0.1% of total LP tokens</span>
       </div>
       <div className="flex justify-between">
         <span>Total Points Available for LP:</span>
@@ -399,7 +401,7 @@ To prevent users from gaming the system by acquiring SAGEUSD just before points 
       </div>
       <div className="flex justify-between">
         <span>Base LP Points:</span>
-        <span className="font-mono">(0.05% of 4,000,000) = 2,000 points</span>
+        <span className="font-mono">(0.1% of 4,000,000) = 4000 points</span>
       </div>
       
       {/* Multipliers */}
@@ -408,15 +410,15 @@ To prevent users from gaming the system by acquiring SAGEUSD just before points 
       </div>
       <div className="flex justify-between">
         <span>Market Cap Multiplier (0-100M):</span>
-        <span className="font-mono">3x</span>
+        <span className="font-mono">1.0x</span>
       </div>
       <div className="flex justify-between">
-        <span>Time-Based Multiplier (First 30 days):</span>
-        <span className="font-mono">3x</span>
+        <span>Time-Based Multiplier (Day 20):</span>
+        <span className="font-mono">3.0x</span>
       </div>
       <div className="flex justify-between">
         <span>Total Multiplier:</span>
-        <span className="font-mono">3 × 3 = 9x</span>
+        <span className="font-mono">1.0 × 3.0 = 3.0x</span>
       </div>
       
       {/* Total Points */}
@@ -425,16 +427,16 @@ To prevent users from gaming the system by acquiring SAGEUSD just before points 
       </div>
       <div className="flex justify-between">
         <span>Holding Points with Multipliers:</span>
-        <span className="font-mono">1,000 × 9 = 9,000 points</span>
+        <span className="font-mono">1,000 × 3.0 = 3,000 points</span>
       </div>
       <div className="flex justify-between">
         <span>LP Points with Multipliers:</span>
-        <span className="font-mono">2,000 × 9 = 18,000 points</span>
+        <span className="font-mono">4,000 × 3.0 = 12,000 points</span>
       </div>
       <div className="border-t border-gray-300 dark:border-gray-600 pt-4">
         <div className="flex justify-between font-bold">
           <span>Combined Daily Points:</span>
-          <span className="font-mono">9,000 + 18,000 = 27,000 points</span>
+          <span className="font-mono">3,000 + 12,000 = 15,000 points</span>
         </div>
       </div>
     </div>
@@ -451,7 +453,7 @@ To maximize your points earning potential, consider these strategies:
 
 <CardGroup cols={2}>
   <Card title="Early Participation" icon="hourglass-start" color="#7c3aed">
-    Join early to benefit from the highest cumulative multipliers (up to 9x)
+    Join early to benefit from the highest time-based multipliers (3.0x) and growing market cap multipliers
   </Card>
   <Card title="Provide Liquidity" icon="water" color="#0891b2">
     LP providers earn 4x the points compared to regular holders
@@ -525,7 +527,7 @@ The SAGEUSD Referral Program allows you to earn additional points by referring n
       </div>
       <div className="border-t border-gray-300 dark:border-gray-600 pt-4">
         <div className="flex justify-between font-bold">
-          <span>Example:</span>
+          <span>Example:&nbsp;</span>
           <span className="font-mono">On day 15 (30% bonus period), if referee earns 100 regular points, they get 130 total points, and the referrer gets 30 bonus points from this referral</span>
         </div>
       </div>
